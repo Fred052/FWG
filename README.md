@@ -1,30 +1,30 @@
-# DeepFly - Pentomino AR Uygulaması
+# FWG - (Flight With Games) Pentomino AR Uygulaması
 
-DeepFly, bebek ve çocukların uçakta keyifli vakit geçirmeleri için geliştirilmiş bir artırılmış gerçeklik (AR) uygulamasıdır. Uygulama, çocukların uçuş sırasında etkileşimli deneyimler yaşamalarını sağlayarak, eğlenceli ve öğretici bir ortam sunmaktadır.
+AR Pentomino, artırılmış gerçeklik teknolojisiyle şekil tanıma ve problem çözme becerilerini geliştiren eğlenceli bir mobil oyun uygulamasıdır. Kullanıcılar, sanal pentomino parçalarını gerçek dünya ortamında birleştirerek zeka geliştirici bulmacaları çözer. Hem eğitici hem de eğlenceli bir deneyim sunarak, her yaştan kullanıcıya hitap eder. AR teknolojisiyle her seviyede etkileşimli bir oyun keyfi sağlar.
 
 ## Proje Durumu
 
-- **Hafta 1**: Trello panosu oluşturuldu. [Trello Pano Linki]([https://trello.com/b/uORZZQrZ/deepfly](https://trello.com/b/MQSRDi44/fwg))  
+- **Hafta 1**: Trello panosu oluşturuldu. [Trello Pano Linki](https://trello.com/b/MQSRDi44/fwg)  
   GitHub repoları oluşturuldu:   
-  - [DeepFly Mobile](https://github.com/cngzhn06/DeepFly-Mobile)
+  - [FWG Mobile](https://github.com/cngzhn06/DeepFly-Mobile)
 
 - **Hafta 2**: Uygulamayı yapacağım Dili ve EkoSistemin araştırılması Yapıldı.
 
-- **Hafta 3**: SWOT analizi tamamlandı. [AR SWOT PDF](https://trello.com/c/Gks2B9lU)
+- **Hafta 3**: SWOT analizi tamamlandı.
 
-- **Hafta 4**: Gereksinim analizi yapıldı. [AR Gereksinim PDF](AR%20Gereksinim.pdf)
+- **Hafta 4**: Gereksinim analizi yapıldı.
 
-- **Hafta 5**: Tüm diyagramlar hazırlandı. [Diyagramlar Linki](screen.zip, diyagram.zip)
+- **Hafta 5**: Tüm diyagramlar hazırlandı.
 
-- **Hafta 6**: Kodlama aşamasına geçildi. [DeepFly Mobile Kodları](https://github.com/cngzhn06/DeepFly-Mobile)
+- **Hafta 6**: Kodlama aşamasına geçildi.
 
 - **Hafta 7**: Testler tamamlandı.
 
 ## Özellikler
 
-- **Artırılmış Gerçeklik**: Bebekler ve çocuklar için özel olarak tasarlanmış AR deneyimleri.
-- **Etkileşimli Oyunlar**: Uçuş sırasında çocukların dikkatini çekecek oyun ve aktiviteler.
-- **Kişiselleştirilmiş Deneyim**: Kullanıcıların yaşlarına ve tercihlerine göre uyarlanabilen içerikler.
+- **Artırılmış Gerçeklik**: Pentomino şekillerini 3D olarak keşfedin ve etkileşimli bir şekilde birleştirin.
+- **Etkileşimli Oyunlar**: Zihinsel becerileri geliştiren farklı seviyelerde pentomino bulmacaları.
+- **Kişiselleştirilmiş Deneyim**: Zorluk seviyesini ve oynama hızını kullanıcı tercihlerine göre ayarlama.
 
 ## Gereksinimler
 
@@ -37,4 +37,4 @@ DeepFly, bebek ve çocukların uçakta keyifli vakit geçirmeleri için gelişti
 
 1. Bu projeyi yerel makinenize klonlayın:
    ```bash
-   git clone https://github.com/cngzhn06/DeepFly-Mobile.git
+   
