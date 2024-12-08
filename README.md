@@ -6,7 +6,7 @@ AR Pentomino, artırılmış gerçeklik teknolojisiyle şekil tanıma ve problem
 
 - **Hafta 1**: Trello panosu oluşturuldu. [Trello Pano Linki](https://trello.com/b/MQSRDi44/fwg)  
   GitHub repoları oluşturuldu:   
-  - [FWG Mobile](https://github.com/cngzhn06/DeepFly-Mobile)
+  - [FWG Mobile](https://github.com/Fred052/FWG)
 
 - **Hafta 2**: Uygulamayı yapacağım Dili ve EkoSistemin araştırılması Yapıldı.
 
@@ -37,4 +37,4 @@ AR Pentomino, artırılmış gerçeklik teknolojisiyle şekil tanıma ve problem
 
 1. Bu projeyi yerel makinenize klonlayın:
    ```bash
-   
+   https://github.com/Fred052/FWG.git
