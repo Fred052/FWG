@@ -33,7 +33,7 @@ Zamandan Tasarruf ederik Uygulamamın 1 dakikalık Videosunu izleyebilirsiniz. �
 ## Gereksinimler
 
 - Xcode 12.0 veya daha yeni sürümü
-- iOS 14.0 veya daha yüksek sürüm gerektirir
+- iOS 18.0 veya daha yüksek sürüm gerektirir
 - Swift 5.0 ve üzeri
 - ARKit ve RealityKit entegrasyonu gerektirir
 
