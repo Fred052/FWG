@@ -3,7 +3,7 @@
 AR Pentomino, artırılmış gerçeklik teknolojisiyle şekil tanıma ve problem çözme becerilerini geliştiren eğlenceli bir mobil oyun uygulamasıdır. Kullanıcılar, sanal pentomino parçalarını gerçek dünya ortamında birleştirerek zeka geliştirici bulmacaları çözer. Hem eğitici hem de eğlenceli bir deneyim sunarak, her yaştan kullanıcıya hitap eder. AR teknolojisiyle her seviyede etkileşimli bir oyun keyfi sağlar.
 
 
-Zamandan Tasarruf ederik Uygulamamın 1 dakikalık Videosunu izleyebilirsiniz. İyi seyirler. [YoutubeLink](https://youtube.com/shorts/M_i4Hx7siJI?feature=share)
+Zamandan Tasarruf ederek Uygulamamın 1 dakikalık Videosunu izleyebilirsiniz. İyi seyirler. [YoutubeLink](https://youtube.com/shorts/M_i4Hx7siJI?feature=share)
 
 
 ## Proje Durumu
