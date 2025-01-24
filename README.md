@@ -24,6 +24,19 @@ Zamandan Tasarruf ederek Uygulamamın 1 dakikalık Videosunu izleyebilirsiniz. �
 
 - **Hafta 7**: Testler tamamlandı.
 
+ - **Hafta 8**: Uygulama için Yenilikçi fikirler düşünüldü ve Tartışıldı.
+
+ - **Hafta 9**: Yeni Arayüz Tasarımına Başlandı.
+
+ - **Hafta 10**: Arayüz gelişiminden sonra Unit Testleri yapıldı
+
+ - **Hafta 11**: A/B Testi yapılarak Kullanıcılardan geri bildirim değerlendirildi
+
+ - **Hafta 12**: Testler tamamlandı.
+
+ - **Hafta 13**: Proje Teslim edildi.
+
+   
 ## Özellikler
 
 - **Artırılmış Gerçeklik**: Pentomino şekillerini 3D olarak keşfedin ve etkileşimli bir şekilde birleştirin.
