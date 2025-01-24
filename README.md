@@ -24,7 +24,7 @@ Zamandan Tasarruf ederek Uygulamamın 1 dakikalık Videosunu izleyebilirsiniz. �
 
 - **Hafta 7**: Testler tamamlandı.
 
-- "Vize Sınavlarımızdan Sonra Yapılanlar"
+"Vize Sınavlarımızdan Sonra Yapılanlar"
 
  - **Hafta 8**: Uygulama için Yenilikçi fikirler düşünüldü ve Tartışıldı.
 
