@@ -8,24 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.dismiss) private var dismiss
     @StateObject private var gameViewModel = GameViewModel()
     
     var body: some View {
         VStack {
-            HeaderView()
+            HStack {
+                Button(action: {
+                    dismiss()
+                }) {
+                    Image(systemName: "chevron.left")
+                        .foregroundColor(.blue)
+                        .imageScale(.large)
+                        .padding()
+                }
+                
+                Spacer()
+                
+                Text("Pentominoes")
+                    .font(.largeTitle)
+                
+                Spacer()
+            }
+            .padding(.top)
+            
             GameBoardView(viewModel: gameViewModel)
             ControlButtonsView(viewModel: gameViewModel)
             PieceSelectorView(viewModel: gameViewModel)
         }
-    }
-}
-
-// Header View
-struct HeaderView: View {
-    var body: some View {
-        Text("Pentominoes")
-            .font(.largeTitle)
-            .padding()
+        .navigationBarBackButtonHidden(true)
     }
 }
 
@@ -282,5 +293,12 @@ extension View {
 }
 
 #Preview {
-    ContentView()
+    ZStack {
+        Image("image1")
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .edgesIgnoringSafeArea(.all)
+        
+        ContentView()
+    }
 }

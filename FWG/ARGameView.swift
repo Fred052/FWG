@@ -10,12 +10,25 @@ import RealityKit
 import ARKit
 
 struct ARGameView: View {
+    @Environment(\.dismiss) private var dismiss
     @StateObject private var viewModel = GameViewModel()
     
     var body: some View {
-        ZStack {
+        ZStack(alignment: .topLeading) {
             ARViewContainer(viewModel: viewModel)
                 .edgesIgnoringSafeArea(.all)
+            
+            Button(action: {
+                dismiss()
+            }) {
+                Image(systemName: "chevron.left")
+                    .foregroundColor(.white)
+                    .imageScale(.large)
+                    .padding()
+                    .background(Color.black.opacity(0.5))
+                    .cornerRadius(10)
+            }
+            .padding()
             
             VStack {
                 Spacer()
@@ -24,6 +37,7 @@ struct ARGameView: View {
                     .padding()
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 

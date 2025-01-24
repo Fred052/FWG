@@ -12,31 +12,29 @@ struct StartScreenView: View {
     @State private var startARGame = false
     
     var body: some View {
-        if startGame {
-            ContentView()
-        } else if startARGame {
-            ARGameView()
-        } else {
+        NavigationStack {
             VStack(spacing: 30) {
                 Text("Pentominoes Puzzle")
                     .font(.largeTitle)
                     .padding()
                 
                 Button(action: {
-                    withAnimation {
-                        startGame = true
-                    }
+                    startGame = true
                 }) {
                     GameButton(title: "Play Game")
                 }
                 
                 Button(action: {
-                    withAnimation {
-                        startARGame = true
-                    }
+                    startARGame = true
                 }) {
                     GameButton(title: "Play with AR")
                 }
+            }
+            .navigationDestination(isPresented: $startGame) {
+                ContentView()
+            }
+            .navigationDestination(isPresented: $startARGame) {
+                ARGameView()
             }
         }
     }
